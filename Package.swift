@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "TTSUBase",
     platforms: [
-        .iOS(.v13)   // 你要支持的最低系统
+        .iOS(.v15)   // 你要支持的最低系统
     ],
     products: [
         .library(
